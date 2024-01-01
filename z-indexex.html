@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body{
+            display:flex;
+            
+            background-color:white;
+        }
+        .card1{
+            position:absolute;
+            margin-top:120px;
+            width:300px;
+            height:490px;
+            padding:20px;
+            z-index:2;
+            
+        }
+        .imagee{
+            position: relative;
+            margin-top:210px;
+            margin-left:60px;
+            z-index:10;
+            
+        }
+        .heading{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .bottom1{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            position:sticky;
+            z-index: 8;
+            margin-top:350px;
+            color:gold;
+        }
+        .card{
+            position:absolute;
+            margin-top:120px;
+            width:300px;
+            height:540px;
+            background-color:#adadad;
+            margin-left:500px;
+            z-index:2;
+            border: 1px solid;
+            
+        }
+        .virat{
+            position: relative;
+            margin-top:210px;
+            padding-left:150px;
+            z-index:11;
+            
+        }
+        .userdetails{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .bottom{
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+            position:sticky;
+            z-index: 8;
+            margin-top:400px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="card1" style="border:1px solid">
+        <div class="heading">
+
+            <p style="color:black;font-size:20px;padding-left:50px;;"><strong>Review Your Purchase</strong></p>
+            
+            </div>
+            <div class="bottom1">
+                <i class="fa-regular fa-star fa-2x"></i>
+                <i class="fa-regular fa-star fa-2x"></i>
+                <i class="fa-regular fa-star fa-2x"></i>
+                <i class="fa-regular fa-star fa-2x"></i>
+                <i class="fa-regular fa-star fa-2x"></i>
+            </div> <br>
+            <a href="https://www.amazon.in/headphones/b?node=1388921031" style="text-decoration: none;font-size: larger;">See more products to review</a>
+        </div>
+    <div class="imagee">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.J9ITxBvnInl_8QbfFkZSvgHaHa&pid=Api&P=0&h=180" style="width:77%;height:320px; border-radius:20px;"/>
+</div>
+<div class="card">
+    <div class="userdetails">
+        <div>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.RorOnGu4QlUakYjo7wo0rgHaE8&pid=Api&P=0&h=180" style="width:50px;border-radius:100%;border:3px solid green;"/>
+        </div>
+        <p style="color:white;font-size:medium;padding-right:60px"><strong>White_devil084</strong><br>
+        <span style="font-size:small;">Narikanda - The Heaven on Earth</span></p>
+        </div>
+        <div class="bottom">
+            <i class="fa-regular fa-heart fa-2x"></i>
+            <i class="fa-regular fa-comment fa-2x "></i>
+            <i class="fa-brands fa-telegram fa-2x"></i>
+            <i class="fa-solid fa-ellipsis-vertical fa-2x"></i>
+        </div> 
+    </div>
+<div class="virat">
+<img src="https://tse1.mm.bing.net/th?id=OIP.xsV38RSQuEeNPtCiykazDgHaFj&pid=Api&P=0&h=180" style="width:57%;height:320px; border-radius:20px;"/>
+</div>
+<aside style="float:right;background-color: lavender;width:30%;height:50%;margin-top: 20%;padding:45px;border: 1px solid;border-radius: 20px;">
+    The z-index property specifies the stack order of an element.<br>
+
+An element with greater stack order is always in front of an element with a lower stack order.<br>
+
+Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).<br>
+
+Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+</aside>
+
+</body>
+</html>
